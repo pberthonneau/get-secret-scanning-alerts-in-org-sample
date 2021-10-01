@@ -1,8 +1,8 @@
 {
-  "name": "get-code-scanning-alerts",
+  "name": "get-secret-scanning-alerts-in-orgs",
   "version": "1.0.0",
-  "description": "Gets stats about code scanning alerts in an organization",
-  "main": "get-code-scanning-alerts.js",
+  "description": "Gets stats about code scanning alerts in a list of organizations",
+  "main": "get-secret-scanning-alerts-in-orgs.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +12,7 @@
     "@octokit/rest": "^17.11.2",
     "delay": "^4.4.0",
     "dotenv": "^8.2.0",
-    "p-reduce": "^2.1.0"
+    "p-reduce": "^2.1.0",
+    "@octokit/plugin-enterprise-compatibility": "^1.3.0"
   }
 }
