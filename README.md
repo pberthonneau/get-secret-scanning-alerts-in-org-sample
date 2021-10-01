@@ -4,7 +4,10 @@ This repo demonstrates how to use the GitHub code scanning API to export all the
 
 Limitation: there is no way to get the commit SHA and line number where the secret has been identified.
 
-Note: the secret is hashed to not disclose it but still be able to identify a secret committed in multiple places.
+Notes:
+
+- the secret is hashed to not disclose it but still be able to identify a secret committed in multiple places.
+- this version is for GHES only
 
 ### Running the script
 
