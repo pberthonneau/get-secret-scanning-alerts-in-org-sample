@@ -1,4 +1,4 @@
-# Get secret scanning alerts in orgs
+# Get secret scanning alerts in orgs 
 
 This repo demonstrates how to use the GitHub code scanning API to export all the alerts on an organization to a CSV file. This makes it possible for a security team to quickly audit the known vulnerabilities across their organizations that are using GitHub Advanced Security.
 
